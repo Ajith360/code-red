@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('e37YFJ4nMI0Gder_s');
+        })();
+    </script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">My Portfolio</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/Ajith360" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/ajith-a-915789232/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://instagram.com/ajith.mr.360?igshid=ZDdkNTZiNTM=" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <div class="home-img">
+            <img class="pro-img" src="./image/prof.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Ajith</h1>
+            <h2>Frontend Developer</h2>
+            <p>Iam a passinate Web Developer<br>with enormous amount of knowledge<br> in various Tech stack</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./image/Main bg.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Hi, I am a web developer with a passion for creating dynamic and responsive websites. As a fresher in
+                    the industry, I am eager to learn and contribute to new projects. I have experience in HTML, CSS,
+                    JavaScript. My goal is to build user-friendly and visually appealing websites that meet the clients'
+                    needs. I am always exploring new technologies to stay up-to-date with the latest trends in web
+                    development.</p>
+                <div class="information">
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+91 63742 78962</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>ajithharipriyan@gmail.com</span>
+                    </div>
+                </div>
+                <a href="./image/Ajith .pdf" class="btn" download>Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>DBMS</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Java</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Python</h3>
+                    <span>70%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>70%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="./image/123.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>My Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="./image/Library.png" alt="">
+                <h3>Library Management System</h3>
+            </div>
+            <div class="portfolio-img">
+                <img src="./image/blog-3.jpg" alt="">
+                <h3>Library Management System</h3>
+            </div>
+            <div class="portfolio-img">
+                <img src="./image/blog-4.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./image/blog-5.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./image/blog-6.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="./image/blog-7.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Me</span>
+        </div>
+        <div class="contact-form">
+            <form onsubmit="sendMail()" id="FORM">
+                <input type="text" id="name" placeholder="Your Name" autocomplete="on" required>
+                <input type="email" name="" id="email" placeholder="Your Email" required>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                <button type="submit" value="Send" class="btn" style="width:35%;border: none; cursor: pointer;">Send</button>
+            </form> 
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/ajith-a-915789232/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://twitter.com/AjithA59895867?t=TpPNX1fR4yVVMHwJkGlMFA&s=09" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://instagram.com/ajith.mr.360?igshid=ZDdkNTZiNTM=" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Ajith360"><i class='bx bxl-github' target="_blank"></i></a>
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Create By <a href="">Ajith</a> | © All Right Reserved.</p>
+    </div>
+
+
+
+    <!-- Link To JS -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
